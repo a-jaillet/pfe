@@ -1,0 +1,39 @@
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% titres du rapport
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Version francaise
+\titre{Dossier d'initialisation \\ PFE \\ Sécurisation d'un logiciel de validation / génération de donnée}
+% version anglaise
+\title{This is the english title of the project}
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Auteur du rapport
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\firstname{Adrien}
+%\middlename{Autre-Prénom}
+\lastname{Jaillet}
+
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Informations sur le PFE
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Information administratives
+\dateDebutPFE{6 février 2023}
+\dateFinPFE{28 juillet 2023}
+\nomStructureAcceuil{Clearsy}
+\villeStructureAccuel{Aix-en-provence}
+% \logoStructureAccueil{width=1.5cm}{graphics/LogoStructureAccueil}% if you don't want to put a logo for the host structure, comment this line.
+
+% Encadrants.
+% Penser à accorder la fonction avec le genre
+\begin{encadrants}
+% Fonction {Fonction}{ Prénom \Nom{Nom}}{Titre}{Structure}
+  \referent{Référente}{Sahra \Nom{Bouchenak}}{Professeure}{INSA Lyon}%
+  \tuteur{Tuteur}{Romain \Nom{Lapostolle}}{Avocat}{Clearsy}
+\end{encadrants}
+
+% Date de la soutenance
+\date{juin 2020}

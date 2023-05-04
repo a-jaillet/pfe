@@ -1,0 +1,27 @@
+\begin{thebibliography}{1}
+
+\bibitem{DBLP:journals/eor/LayerJSF20}
+Kevin Layer, Andrew~L. Johnson, Robin~C. Sickles, and Gary~D. Ferrier.
+\newblock Direction selection in stochastic directional distance functions.
+\newblock {\em European Journal of Operational Research}, 280(1):351--364,
+  2020.
+
+\bibitem{DBLP:books/cu/L2020}
+Steven~M. LaValle.
+\newblock {\em Virtual Reality}.
+\newblock Cambridge University Press, 2020.
+
+\bibitem{WinNT}
+{MS Windows NT} kernel description.
+\newblock
+  \url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm}.
+\newblock Dernier accès~: 2010-09-30.
+
+\bibitem{instance1290}
+Burkhard Stiller, Thomas Bocek, Fabio Hecht, Guilherme Machado, Peter Racz, and
+  Martin Waldburger.
+\newblock {Mobile Systems IV}.
+\newblock Technical report, University of Zurich, Department of Informatics, 01
+  2010.
+
+\end{thebibliography}

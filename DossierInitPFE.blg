@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: DossierInitPFE.aux
+The style file: unsrt.bst
+Database file #1: rapportPFE.bib
+You've used 4 entries,
+            1791 wiz_defined-function locations,
+            469 strings with 4237 characters,
+and the built_in function-call counts, 734 in all, are:
+= -- 59
+> -- 39
+< -- 0
++ -- 15
+- -- 11
+* -- 44
+:= -- 126
+add.period$ -- 12
+call.type$ -- 4
+change.case$ -- 4
+chr.to.int$ -- 0
+cite$ -- 4
+duplicate$ -- 30
+empty$ -- 74
+format.name$ -- 11
+if$ -- 159
+int.to.chr$ -- 0
+int.to.str$ -- 4
+missing$ -- 3
+newline$ -- 23
+num.names$ -- 3
+pop$ -- 18
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 9
+stack$ -- 0
+substring$ -- 25
+swap$ -- 3
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 5
+width$ -- 5
+write$ -- 43
