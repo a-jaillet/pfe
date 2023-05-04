@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.4)  4 MAY 2023 19:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.4)  4 MAY 2023 21:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1247,24 +1247,47 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 Package: babel 2022/01/26 3.70 The Babel package
 \babel@savecnt=\count269
 \U@D=\dimen147
-\l@unhyphenated=\language3
+\l@unhyphenated=\language5
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count270
 
+(/usr/share/texlive/texmf-dist/tex/generic/babel-french/francais.ldf
+Language: francais 2021/07/20 v3.5m French support from the babel system
 
-! Package babel Error: Unknown option 'french'. Either you misspelled it
-(babel)                or the language definition file french.ldf was not found
-.
 
-See the babel package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4254 \ProcessOptions*
-                       
-? 
+Package francais.ldf Warning: Option `francais' for Babel is *deprecated*,
+(francais.ldf)                it might be removed sooner or later. Please
+(francais.ldf)                use `french' instead; reported on input line 31.
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-french/french.ldf
+Language: french 2021/07/20 v3.5m French support from the babel system
+Package babel Info: Hyphen rules for 'acadian' set to \l@french
+(babel)             (\language3). Reported on input line 91.
+Package babel Info: Hyphen rules for 'canadien' set to \l@french
+(babel)             (\language3). Reported on input line 92.
+\FB@nonchar=\count271
+Package babel Info: Making : an active character on input line 430.
+Package babel Info: Making ; an active character on input line 431.
+Package babel Info: Making ! an active character on input line 432.
+Package babel Info: Making ? an active character on input line 433.
+\FBguill@level=\count272
+\FBold@everypar=\toks20
+\FB@Mht=\dimen148
+\mc@charclass=\count273
+\mc@charfam=\count274
+\mc@charslot=\count275
+\std@mcc=\count276
+\dec@mcc=\count277
+\listindentFB=\dimen149
+\descindentFB=\dimen150
+\labelindentFB=\dimen151
+\labelwidthFB=\dimen152
+\leftmarginFB=\dimen153
+\parindentFFN=\dimen154
+\FBfnindent=\dimen155
+))
 (/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'british' set to \l@english
@@ -1278,6 +1301,7 @@ Package babel Info: Hyphen rules for 'australian' set to \l@english
 Package babel Info: Hyphen rules for 'newzealand' set to \l@english
 (babel)             (\language0). Reported on input line 108.
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/carlisle/scalefnt.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
 
@@ -1316,9 +1340,9 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
-\@linkdim=\dimen148
-\Hy@linkcounter=\count271
-\Hy@pagecounter=\count272
+\@linkdim=\dimen156
+\Hy@linkcounter=\count278
+\Hy@pagecounter=\count279
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
@@ -1335,7 +1359,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count273
+\Hy@SavedSpaceFactor=\count280
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
@@ -1349,14 +1373,14 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count274
+\c@Hy@tempcnt=\count281
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4804.
-\XeTeXLinkMargin=\dimen149
+\XeTeXLinkMargin=\dimen157
 
 (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -1365,9 +1389,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count275
-\Field@Width=\dimen150
-\Fld@charsize=\dimen151
+\Fld@menulength=\count282
+\Field@Width=\dimen158
+\Fld@charsize=\dimen159
 Package hyperref Info: Hyper figures OFF on input line 6076.
 Package hyperref Info: Link nesting OFF on input line 6081.
 Package hyperref Info: Hyper index ON on input line 6084.
@@ -1381,9 +1405,9 @@ LaTeX Info: Redefining \pageref on input line 6150.
 (/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
-\Hy@abspage=\count276
-\c@Item=\count277
-\c@Hfootnote=\count278
+\Hy@abspage=\count283
+\c@Item=\count284
+\c@Hfootnote=\count285
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -1394,8 +1418,8 @@ File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
 )
-\Fld@listcount=\count279
-\c@bookmark@seq@number=\count280
+\Fld@listcount=\count286
+\c@bookmark@seq@number=\count287
 
 (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
@@ -1427,20 +1451,20 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen152
-\Gin@req@width=\dimen153
+\Gin@req@height=\dimen160
+\Gin@req@width=\dimen161
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks20
-\thm@bodyfont=\toks21
-\thm@headfont=\toks22
-\thm@notefont=\toks23
-\thm@headpunct=\toks24
+\thm@style=\toks21
+\thm@bodyfont=\toks22
+\thm@headfont=\toks23
+\thm@notefont=\toks24
+\thm@headpunct=\toks25
 \thm@preskip=\skip50
 \thm@postskip=\skip51
 \thm@headsep=\skip52
-\dth@everypar=\toks25
+\dth@everypar=\toks26
 )
 (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
@@ -1467,30 +1491,30 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
 \resumeEn@pageResume=\box55
 \resumeEnwidth=\skip53
 \abs@width=\skip54
-\c@Definition=\count281
-\c@Theorem=\count282
-\c@Lemma=\count283
-\c@Proposition=\count284
-\c@Corollary=\count285
+\c@Definition=\count288
+\c@Theorem=\count289
+\c@Lemma=\count290
+\c@Proposition=\count291
+\c@Corollary=\count292
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count286
+\lst@mode=\count293
 \lst@gtempboxa=\box56
-\lst@token=\toks26
-\lst@length=\count287
-\lst@currlwidth=\dimen154
-\lst@column=\count288
-\lst@pos=\count289
-\lst@lostspace=\dimen155
-\lst@width=\dimen156
-\lst@newlines=\count290
-\lst@lineno=\count291
-\lst@maxwidth=\dimen157
+\lst@token=\toks27
+\lst@length=\count294
+\lst@currlwidth=\dimen162
+\lst@column=\count295
+\lst@pos=\count296
+\lst@lostspace=\dimen163
+\lst@width=\dimen164
+\lst@newlines=\count297
+\lst@lineno=\count298
+\lst@maxwidth=\dimen165
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count292
-\lst@skipnumbers=\count293
+\c@lstnumber=\count299
+\lst@skipnumbers=\count300
 \lst@framebox=\box57
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
@@ -1560,6 +1584,8 @@ LaTeX Font Info:    ... okay on input line 60.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+LaTeX Info: Redefining \degres on input line 60.
+LaTeX Info: Redefining \up on input line 60.
 \AtBeginShipoutBox=\box58
 Package hyperref Info: Link coloring OFF on input line 60.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -1571,7 +1597,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count294
+\c@section@level=\count301
 )
 LaTeX Info: Redefining \ref on input line 60.
 LaTeX Info: Redefining \pageref on input line 60.
@@ -1584,17 +1610,17 @@ LaTeX Info: Redefining \nameref on input line 60.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count295
-\scratchdimen=\dimen158
+\scratchcounter=\count302
+\scratchdimen=\dimen166
 \scratchbox=\box59
-\nofMPsegments=\count296
-\nofMParguments=\count297
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count298
-\MPscratchDim=\dimen159
-\MPnumerator=\count299
-\makeMPintoPDFobject=\count300
-\everyMPtoPDFconversion=\toks28
+\nofMPsegments=\count303
+\nofMParguments=\count304
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count305
+\MPscratchDim=\dimen167
+\MPnumerator=\count306
+\makeMPintoPDFobject=\count307
+\everyMPtoPDFconversion=\toks29
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1604,8 +1630,8 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count301
-<insa.pdf, id=48, 441.0879pt x 99.4917pt>
+\c@lstlisting=\count308
+<insa.pdf, id=28, 441.0879pt x 99.4917pt>
 File: insa.pdf Graphic file (type pdf)
 <use insa.pdf>
 Package pdftex.def Info: insa.pdf  used on input line 61.
@@ -1648,92 +1674,166 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 85--88
  [1] [2
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-30.
+Overfull \hbox (9.16058pt too wide) in paragraph at lines 132--135
+\T1/cmr/m/n/12 ClearSy est une en-treprise française spé-cial-isée dans la con-
+cep-tion, le développe-ment et l'assurance
+ []
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
- been already used, duplicate ignored
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--135
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--158
+
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.143 
-       [1
+l.158 \begin{itemize}
+                      [1]
 
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+! LaTeX Error: There's no line here to end.
 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.161 \end{itemize}\\~
+                      \\
+? 
+
+Overfull \hbox (9.7729pt too wide) in paragraph at lines 170--174
+\T1/cmr/bx/n/12 sachant im-porter des don-nées \T1/cmr/m/n/12 Le sta-giaire aur
+a pour tâche de créer un mod-ule d'importation
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--174
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.177 \end{itemize}\\~
+                      \\
+? 
+! Illegal parameter number in definition of \GetTitleStringResult.
+<to be read again> 
+                   }
+l.183 ... donnÃ©es pour les fichiers textes en C#}
+                                                  
+? 
+! Illegal parameter number in definition of \GTS@GlobalString.
+<to be read again> 
+                   }
+l.183 ... donnÃ©es pour les fichiers textes en C#}
+                                                  
+? 
+! Illegal parameter number in definition of \@svsechd.
+<to be read again> 
+                   }
+l.183 ... donnÃ©es pour les fichiers textes en C#}
+                                                  
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+<argument> ...Ã©es pour les fichiers textes en C##
+                                                  
+l.186 L
+       e stagiaire aura pour mission de rÃ©-implementer le module d'importat...
+
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.186 ...de donnÃ©es pour les fichiers texte en C#
+                                                  , en utilisant la descript...
+
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--189
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.192 \end{itemize}\\~
+                      \\
+? 
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.158 
-       [2]
-<graphics/DiagrammeThil.jpg, id=109, 630.355pt x 293.095pt>
-File: graphics/DiagrammeThil.jpg Graphic file (type jpg)
-<use graphics/DiagrammeThil.jpg>
-Package pdftex.def Info: graphics/DiagrammeThil.jpg  used on input line 161.
-(pdftex.def)             Requested size: 290.22105pt x 134.9416pt.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 165.
- [3 <./graphics/DiagrammeThil.jpg>] [4] (./DossierInitPFE.bbl)
-[5] [6
+l.203   \item C
+               ompiler CAVAL avec un autre compilateur [2] [3] [4
 
-] [7
+] [5
 
 ]
 
 LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <18> not available
-(Font)              size <17.28> substituted on input line 211.
+(Font)              size <17.28> substituted on input line 223.
 
 
 LaTeX Font Warning: Font shape `T1/cmr/bx/n' in size <18> not available
-(Font)              size <17.28> substituted on input line 211.
+(Font)              size <17.28> substituted on input line 223.
 
-[8
+[6
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 211.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 211.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 223.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 223.
  (./DossierInitPFE.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 211.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 211.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 223.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 223.
 Package rerunfilecheck Info: File `DossierInitPFE.out' has not changed.
-(rerunfilecheck)             Checksum: 9D196B29E276CFEE68841F717CE90CB2;1580.
+(rerunfilecheck)             Checksum: 0EE5130124C74934D902D5BBD31C5CB6;1009.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.28pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 211.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 223.
  ) 
 Here is how much of TeX's memory you used:
- 11651 strings out of 480247
- 171537 string characters out of 5896152
- 488401 words of memory out of 5000000
- 29398 multiletter control sequences out of 15000+600000
- 490010 words of font info for 56 fonts, out of 8000000 for 9000
+ 12354 strings out of 480218
+ 182328 string characters out of 5894883
+ 500336 words of memory out of 5000000
+ 30121 multiletter control sequences out of 15000+600000
+ 488271 words of font info for 53 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 55i,7n,56p,1081b,397s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,7n,56p,660b,426s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/ajaillet/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.
-600pk> </home/ajaillet/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1
+600pk> </home/ajaillet/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1
 200.600pk> </home/ajaillet/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/e
-ctt0800.450pk> </home/ajaillet/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/
-ec/ecrm0600.600pk> </home/ajaillet/.texlive2021/texmf-var/fonts/pk/ljfour/jknap
-pen/ec/ectt1200.600pk> </home/ajaillet/.texlive2021/texmf-var/fonts/pk/ljfour/j
-knappen/ec/ecbx1200.600pk> </home/ajaillet/.texlive2021/texmf-var/fonts/pk/ljfo
-ur/jknappen/ec/ecbx1728.600pk> </home/ajaillet/.texlive2021/texmf-var/fonts/pk/
-ljfour/jknappen/ec/eccc1200.600pk> </home/ajaillet/.texlive2021/texmf-var/fonts
-/pk/ljfour/jknappen/ec/ecrm1200.600pk>{/usr/share/texlive/texmf-dist/fonts/enc/
-dvips/base/8r.enc} </home/ajaillet/.texlive2021/texmf-var/fonts/pk/ljfour/jknap
-pen/ec/ecbx1440.600pk> </home/ajaillet/.texlive2021/texmf-var/fonts/pk/ljfour/j
-knappen/ec/ecrm1440.600pk></usr/share/texlive/texmf-dist/fonts/type1/urw/helvet
-ic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.p
-fb>
-Output written on DossierInitPFE.pdf (12 pages, 250940 bytes).
+cbx1200.600pk> </home/ajaillet/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/
+ec/ecbx1728.600pk> </home/ajaillet/.texlive2021/texmf-var/fonts/pk/ljfour/jknap
+pen/ec/eccc1200.600pk> </home/ajaillet/.texlive2021/texmf-var/fonts/pk/ljfour/j
+knappen/ec/ecrm1200.600pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8
+r.enc} </home/ajaillet/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1
+440.600pk> </home/ajaillet/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/e
+crm1440.600pk></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb>
+Output written on DossierInitPFE.pdf (10 pages, 158705 bytes).
 PDF statistics:
- 573 PDF objects out of 1000 (max. 8388607)
- 176 compressed objects within 2 object streams
- 28 named destinations out of 1000 (max. 500000)
- 99 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 389 PDF objects out of 1000 (max. 8388607)
+ 119 compressed objects within 2 object streams
+ 20 named destinations out of 1000 (max. 500000)
+ 54 words of extra memory for PDF output out of 10000 (max. 10000000)
 
