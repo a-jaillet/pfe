@@ -19,7 +19,7 @@
 % Version francaise
 \titre{Sécurisation d'un logiciel de validation / génération de données}
 % version anglaise
-\title{Securing a software for validation/data generation.}
+\title{Securing a software for validation/data generation}
 
 
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -139,11 +139,11 @@ ClearSy a développé un outil de validation de données critiques nommé CAVAL,
 \subsection{Objectifs.}
 
 Le stagiaire sera chargé de travailler sur un nouveau module. L'analyse de sécurité, identifiant tous les potentiels risques ainsi que les parties du logiciel à sécuriser pour respecter les normes en vigueur, est en partie déjà réalisée.
-Le stagiaire sera responsable de mettre en place les couches de sécurité nécessaires pour respecter les normes imposées. Il devra choisir les méthodes de sécurisations les plus appropriées pour chaque partie du logiciel, en veillant à ne pas affecter les performances de ce dernier.
+Le stagiaire sera responsable de mettre en place les couches de sécurité nécessaires pour respecter les normes imposées. Il devra choisir les méthodes de sécurisation les plus appropriées pour chaque partie du logiciel, en veillant à ne pas affecter les performances de ce dernier.
 \\~\\
 Le stagiaire travaillera plus spécifiquement sur les modules d'import de données. Étant donné que les clients peuvent stocker leurs données dans différents formats (CSV, XML, EXCEL, etc.),
 le logiciel doit être capable d'importer des données provenant de ces différents formats tout en maintenant l'intégrité des données. 
-Les méthodes formelles n'étant pas adaptées à la sécurisation de l'import de données, le stagiaire devra redonder certaines partie du logiciel.
+Les méthodes formelles n'étant pas adaptées à la sécurisation de l'import de données, le stagiaire devra redonder certaines parties du logiciel.
 
 \subsubsection{Tâches à réaliser.}
 
@@ -166,11 +166,10 @@ Date Limite:
   \item 25 mars
 \end{itemize}
 
-\paragraph*{Création d'un module d'import externe à CAVAL pour appeler des programmes sachant importer des données}
+\paragraph*{Création d'un module d'import externe dans CAVAL pour appeler des programmes capables d'importer des données}
 
 
-Le stagiaire aura pour tâche de créer un module d'importation externe à CAVAL qui permettra d'appeler des programmes
-capables d'importer des données. Ce module devra être capable de communiquer avec ces programmes via une interface définie par le stagiaire afin d'externaliser l'importation des données hors de CAVAL.
+Le stagiaire aura pour tâche de créer un module d'import externe dans CAVAL ayant pour but d'externaliser l'import de données. Ce module devra être capable de communiquer avec ces programmes via une interface définie par le stagiaire.
 \\~\\
 Livrables:
 \begin{itemize}
@@ -182,10 +181,10 @@ Date Limite:
   \item 8 avril
 \end{itemize}
 
-\paragraph*{Redondance du module d'import de données pour les fichiers textes en C#}
+\paragraph*{Redondance du module d'import de données pour les fichiers textes en C\#}
 
 
-Le stagiaire aura pour mission de ré-implementer le module d'importation de données pour les fichiers texte en C#, en utilisant la description de schéma des fichiers texte déjà existante.
+Le stagiaire aura pour mission de ré-implementer le module d'import de données pour les fichiers textes, en utilisant la description de schéma des fichiers texte déjà existante.
 \\~\\
 Livrables:
 \begin{itemize}
@@ -198,12 +197,12 @@ Date Limite:
 \end{itemize}
 
 
-\paragraph*{Autre tâches}
+\paragraph*{Autres tâches}
 
-Un fois que ces tâches seront réalisées, le stagiaire choisira ce qu'il veut faire parmis les tâches suivantes:
+Une fois que ces tâches seront réalisées, le stagiaire pourra effectuer les tâches suivantes:
 \begin{itemize}
   \item Compiler CAVAL avec un autre compilateur
-  \item Redonder le module d'import des données à partir de fichiers xml en utilisant le format xsd comme description de schéma
+  \item Redonder le module d'import des données à partir de fichiers XML en utilisant le format XSD comme description de schéma
   \item Redonder le module d'import JSON
 \end{itemize}
 
